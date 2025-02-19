@@ -31,6 +31,27 @@ To ensure accuracy and reliability, several data preprocessing steps were perfor
   - **Numerical Scaling**: Features like **Annual Income** and **Price ($)** were standardized to ensure uniformity in analysis.
   - **Categorical Encoding**: Variables such as **Company, Engine, Transmission, Color, and Body Style** were encoded for compatibility with machine learning models.
  
+![img1](https://github.com/user-attachments/assets/a99b2c20-fca3-4fad-9e76-7b44e1f570ec)
+![img2](https://github.com/user-attachments/assets/55147072-8eb1-4b79-9715-ecd9bc079e0f)
+![img3](https://github.com/user-attachments/assets/33dba0bb-859c-4bdd-afec-dde705b562c6)
+![img4](https://github.com/user-attachments/assets/fe497d23-bb41-44cd-b532-61f8407184bb)
+![img5](https://github.com/user-attachments/assets/633b208d-d9a0-48fe-baae-1c1bd11260d2)
+![img6](https://github.com/user-attachments/assets/c1e5a3fb-e606-4160-8b8b-c58a9ed8c521)
+![img7](https://github.com/user-attachments/assets/b5fae740-5b78-4436-aabb-0cccb51fe4f0)
+![img8](https://github.com/user-attachments/assets/96e1c4fb-9c1f-45d4-9c43-e4618a36a744)
+![img9](https://github.com/user-attachments/assets/0ebf2ad7-96ce-4639-a5f2-3d79e214d352)
+![img10](https://github.com/user-attachments/assets/cf748a93-6a08-42f6-967e-281f861e95a9)
+![img11](https://github.com/user-attachments/assets/0779f73c-5d5f-494d-8fff-c8ba9c0d6886)
+![wekaimg1](https://github.com/user-attachments/assets/77841abe-31e4-46f1-995c-0310e38917b2)
+![wekaimg2](https://github.com/user-attachments/assets/9283e172-9b57-442a-880b-3a9f259bb565)
+![wekaimg3](https://github.com/user-attachments/assets/170a750f-1da2-4f5f-8c5d-46905772075a)
+![wekaimg4](https://github.com/user-attachments/assets/8afd3cac-6655-405b-acb9-34061c228a35)
+![wekaimg5](https://github.com/user-attachments/assets/c1d2ea8c-cbb1-4175-8d14-26583e64e4f4)
+![wekaimg6](https://github.com/user-attachments/assets/5112c587-6584-4b30-8dd3-196f40983f0f)
+![wekaimg7](https://github.com/user-attachments/assets/0dd2396e-a81e-44bb-af4e-fb9a1e24568e)
+
+
+ 
 ### Exploratory Data Analysis
 
 EDA involved Exploring the serious data to answer key questions, such as:
