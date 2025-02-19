@@ -4,44 +4,46 @@
 The project focuses on analyzing a dataset to extract insights using business intelligence techniques. It involves processing and visualizing data to uncover patterns, trends, and correlations. The goal is to apply data analysis methods to support decision-making in a specific domain.
 
 ### Data Source
-The dataset used for the analysis comes from Kaggle. It contains structured data related to car sales, including information on car models, sales prices, transaction dates, customer demographics, and dealership details.
+The dataset used for the analysis is the "Car Sales.xlsx - car_data.csv" file which was sourced from Kaggle. It contains structured data related to car sales, including information on car models, sales prices, transaction dates, customer demographics, and dealership details. 
 
 ### Tools Used
-The following tools were used for data processing, analysis, and visualization:
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn) for data manipulation and visualization.
-- **Power BI** and **Tableau** for dashboard creation and visual analysis.
-- **Microsoft Excel** for initial data exploration and cleaning.
-- **SQL** for querying and extracting structured data from databases.
+The following tools were utilized for data processing, analysis, and visualization:
+- **Tableau**: Used for creating visualizations and identifying key sales trends.
+- **Weka**: Implemented the Decision Tree (J48) algorithm for data mining and pattern recognition.
+- **Microsoft Excel**: Used for initial exploration, formatting, and pre-processing of data.
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn): Assisted in additional data manipulation and visualization.
 
 ### Data Cleaning & Preparation
-To ensure data quality and reliability, the following preprocessing steps were performed:
-- **Handling missing values**: Missing data points were either filled with appropriate substitutes (mean, median, or mode) or removed if necessary.
-- **Removing duplicates**: Duplicate records were identified and removed to maintain data integrity.
-- **Standardizing data formats**: Date formats were converted to a consistent structure, and text values were standardized (e.g., casing consistency in categorical data).
-- **Handling outliers**: Statistical techniques were applied to detect and manage anomalies in the dataset.
-- **Encoding categorical variables**: Label encoding and one-hot encoding were used to convert categorical data into a machine-readable format.
-- **Normalizing and scaling numerical features**: This step ensured uniformity in numeric values to improve visualization accuracy and predictive model performance.
+To ensure accuracy and reliability, several data preprocessing steps were performed:
+- **Removal of unnecessary columns**: Columns such as **Car ID, Customer Name, Dealer Name, Phone, and Dealer No** were removed as they were not relevant to the analysis.
+- **Handling missing values**: The dataset **had no missing values or duplicates**, so no imputation was necessary.
+- **Identifying and resolving anomalies**: Outliers in **Annual Income** and **Car Prices** were identified using box plots. These extreme values were legitimate and were not removed.
+- **Feature transformations**:
+  - **Numerical Scaling**: Features like **Annual Income** and **Price ($)** were standardized to ensure uniformity in analysis.
+  - **Categorical Encoding**: Variables such as **Company, Engine, Transmission, Color, and Body Style** were encoded for compatibility with machine learning models.
 
 ### Key Insights & Findings
-- Trends in car sales over time and the impact of seasonality on purchases.
-- Popular car models and their sales distribution across different regions.
-- Price variations and customer preferences based on demographic factors.
-- Sales performance comparison among different dealerships.
-- Identified anomalies in transaction data that could indicate potential fraud or unusual purchasing behavior.
+- Most car buyers fall within the **$50,000 - $75,000** annual income range, indicating this as the primary customer segment.
+- Cars priced between **$20,000 - $30,000** have the highest demand.
+- **Chevrolet, Dodge, and Ford** are the most sold car brands.
+- **SUVs and Hatchbacks** dominate the market, aligning with current consumer preferences.
+- **Automatic transmissions and Double Overhead Camshaft engines** are preferred by most buyers.
+- **Austin and Janesville** regions report the highest sales, suggesting strong market demand.
 
-### Visualizations & Dashboards
-The analysis includes various graphical representations, such as:
-- Time series plots for tracking sales trends.
-- Bar charts and pie charts to show market share and distribution of car models.
-- Heatmaps for identifying correlations between different variables.
-- Box plots to detect outliers in pricing and sales transactions.
+### Data Mining & Predictive Modeling
+- **Algorithm Used**: Decision Trees (**J48 classifier in Weka**) was chosen due to its interpretability and effectiveness in handling both categorical and numerical data.
+- **Model Training**: The dataset was converted to **CSV format** and loaded into Weka, where feature scaling and encoding were performed.
+- **Model Evaluation**: 
+  - **10-fold cross-validation** was used to prevent overfitting.
+  - **Precision, Recall, and F-Measure** showed balanced performance across different classes.
+  - **ROC Curves** helped assess classification accuracy, with higher values indicating stronger reliability.
 
 ### Conclusion & Future Work
-The project successfully analyzed car sales data to uncover meaningful insights that aid decision-making. Future improvements include:
-- Expanding the dataset to include additional variables for deeper analysis.
-- Applying machine learning models to predict future sales trends.
-- Automating the data pipeline for real-time sales tracking.
+The project successfully identified **key factors influencing car sales** through business intelligence and data mining techniques. Moving forward, improvements can include:
+- Expanding the dataset to analyze more regions and demographic factors.
+- Applying machine learning models for **sales prediction and customer segmentation**.
+- Automating data pipelines for **real-time sales analysis**.
 
 ---
-This project highlights the importance of data-driven decision-making in the automotive sales industry and demonstrates the value of business intelligence techniques in understanding market dynamics.
+This project demonstrates the role of data analytics in **understanding market trends, optimizing sales strategies, and making data-driven decisions** in the automotive industry.
 
