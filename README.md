@@ -21,6 +21,20 @@ To ensure accuracy and reliability, several data preprocessing steps were perfor
 - **Feature transformations**:
   - **Numerical Scaling**: Features like **Annual Income** and **Price ($)** were standardized to ensure uniformity in analysis.
   - **Categorical Encoding**: Variables such as **Company, Engine, Transmission, Color, and Body Style** were encoded for compatibility with machine learning models.
+ 
+### Exploratory Data Analysis
+
+EDA involved Exploring the serious data to answer key questions, such as:
+- What is the overall sales trend?
+- Which regions have the highest and lowest car sales?
+- Which car models are the most popular among buyers?
+- How do sales vary across different income groups?
+- What are the most common transmission types and engine types among buyers?
+- How does car pricing influence customer preferences?
+- What is the relationship between annual income and car purchases?
+- Do customers prefer specific colors, and does color influence pricing?
+- How do different car brands compare in terms of total sales?
+- Are there seasonal trends in car sales?
 
 ### Key Insights & Findings
 - Most car buyers fall within the **$50,000 - $75,000** annual income range, indicating this as the primary customer segment.
@@ -38,11 +52,19 @@ To ensure accuracy and reliability, several data preprocessing steps were perfor
   - **Precision, Recall, and F-Measure** showed balanced performance across different classes.
   - **ROC Curves** helped assess classification accuracy, with higher values indicating stronger reliability.
 
-### Conclusion & Future Work
-The project successfully identified **key factors influencing car sales** through business intelligence and data mining techniques. Moving forward, improvements can include:
-- Expanding the dataset to analyze more regions and demographic factors.
-- Applying machine learning models for **sales prediction and customer segmentation**.
-- Automating data pipelines for **real-time sales analysis**.
+### Recommendations
+- **Targeted Marketing**: Since middle-income earners dominate the market, advertising campaigns should focus on this segment.
+- **Inventory Optimization**: Dealers should stock more SUVs and Hatchbacks to meet consumer demand.
+- **Pricing Strategy**: Offering financing options for higher-priced vehicles may increase sales among lower-income customers.
+- **Regional Expansion**: Expanding dealership presence in **Austin and Janesville** could drive more sales.
+- **Feature Customization**: Given the preference for **automatic transmissions and Double Overhead Camshaft engines**, manufacturers should prioritize these features.
+
+### Limitations
+- **Dataset Scope**: The dataset is limited to certain regions and does not provide a global market view.
+- **Feature Constraints**: Some potentially influential factors, such as credit history and customer satisfaction scores, are missing.
+- **Data Recency**: The dataset might not reflect the most current trends in the automotive industry.
+- **Potential Bias**: Since the dataset was sourced from Kaggle, it may not be fully representative of all market segments.
+- **Limited Predictive Accuracy**: While the Decision Tree model performed well, using more advanced algorithms like Random Forest or Gradient Boosting could improve predictive accuracy.
 
 ---
 This project demonstrates the role of data analytics in **understanding market trends, optimizing sales strategies, and making data-driven decisions** in the automotive industry.
