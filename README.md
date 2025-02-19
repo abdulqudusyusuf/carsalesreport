@@ -1,5 +1,17 @@
 # Car Sales Analysis
 
+## Table of Content
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools Used](#tools-used)
+- [Data Cleaning & Preparation](#data-cleaning--preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Mining & Predictive Modeling](#data-mining--predictive-modeling)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+
 ### Project Overview
 The project focuses on analyzing a dataset to extract insights using business intelligence techniques. It involves processing and visualizing data to uncover patterns, trends, and correlations. The goal is to apply data analysis methods to support decision-making in a specific domain.
 
@@ -11,7 +23,6 @@ The following tools were utilized for data processing, analysis, and visualizati
 - **Tableau**: Used for creating visualizations and identifying key sales trends.
 - **Weka**: Implemented the Decision Tree (J48) algorithm for data mining and pattern recognition.
 - **Microsoft Excel**: Used for initial exploration, formatting, and pre-processing of data.
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn): Assisted in additional data manipulation and visualization.
 
 ### Data Cleaning & Preparation
 To ensure accuracy and reliability, several data preprocessing steps were performed:
