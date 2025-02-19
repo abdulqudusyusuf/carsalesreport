@@ -42,15 +42,6 @@ To ensure accuracy and reliability, several data preprocessing steps were perfor
 ![img9](https://github.com/user-attachments/assets/0ebf2ad7-96ce-4639-a5f2-3d79e214d352)
 ![img10](https://github.com/user-attachments/assets/cf748a93-6a08-42f6-967e-281f861e95a9)
 ![img11](https://github.com/user-attachments/assets/0779f73c-5d5f-494d-8fff-c8ba9c0d6886)
-![wekaimg1](https://github.com/user-attachments/assets/77841abe-31e4-46f1-995c-0310e38917b2)
-![wekaimg2](https://github.com/user-attachments/assets/9283e172-9b57-442a-880b-3a9f259bb565)
-![wekaimg3](https://github.com/user-attachments/assets/170a750f-1da2-4f5f-8c5d-46905772075a)
-![wekaimg4](https://github.com/user-attachments/assets/8afd3cac-6655-405b-acb9-34061c228a35)
-![wekaimg5](https://github.com/user-attachments/assets/c1d2ea8c-cbb1-4175-8d14-26583e64e4f4)
-![wekaimg6](https://github.com/user-attachments/assets/5112c587-6584-4b30-8dd3-196f40983f0f)
-![wekaimg7](https://github.com/user-attachments/assets/0dd2396e-a81e-44bb-af4e-fb9a1e24568e)
-
-
  
 ### Exploratory Data Analysis
 
@@ -81,6 +72,14 @@ EDA involved Exploring the serious data to answer key questions, such as:
   - **10-fold cross-validation** was used to prevent overfitting.
   - **Precision, Recall, and F-Measure** showed balanced performance across different classes.
   - **ROC Curves** helped assess classification accuracy, with higher values indicating stronger reliability.
+ 
+![wekaimg1](https://github.com/user-attachments/assets/77841abe-31e4-46f1-995c-0310e38917b2)
+![wekaimg2](https://github.com/user-attachments/assets/9283e172-9b57-442a-880b-3a9f259bb565)
+![wekaimg3](https://github.com/user-attachments/assets/170a750f-1da2-4f5f-8c5d-46905772075a)
+![wekaimg4](https://github.com/user-attachments/assets/8afd3cac-6655-405b-acb9-34061c228a35)
+![wekaimg5](https://github.com/user-attachments/assets/c1d2ea8c-cbb1-4175-8d14-26583e64e4f4)
+![wekaimg6](https://github.com/user-attachments/assets/5112c587-6584-4b30-8dd3-196f40983f0f)
+![wekaimg7](https://github.com/user-attachments/assets/0dd2396e-a81e-44bb-af4e-fb9a1e24568e)
 
 ### Recommendations
 - **Targeted Marketing**: Since middle-income earners dominate the market, advertising campaigns should focus on this segment.
