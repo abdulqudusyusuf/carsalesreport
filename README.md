@@ -1,8 +1,6 @@
 # Car Sales Analysis
 
 ## Table of Content
-
-## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Source](#data-source)
 - [Tools Used](#tools-used)
