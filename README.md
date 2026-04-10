@@ -1,4 +1,4 @@
-# Car Sales Analysis
+# Global Automotive Market Performance & Sales Analysis
 
 ## Table of Content
 - [Project Overview](#project-overview)
